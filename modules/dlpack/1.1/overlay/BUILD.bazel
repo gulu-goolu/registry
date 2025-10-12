@@ -1,0 +1,6 @@
+cc_library(
+    name = "dlpack",
+    hdrs = ["include/dlpack/dlpack.h"],
+    strip_include_prefix = "/include",
+    visibility = ["//visibility:public"],
+)
